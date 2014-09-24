@@ -1,5 +1,3 @@
-Press 'm' to tile all slides, then click on the slide you want to go to.  This
-works on Firefox on my machine, but Chromium doesn't seem to render the slide
-that it takes me too once I click on it.
+Modifying to make a general talk on tech tools, less open-science forward. 
 
-Press 'g' to bring up the goto menu.  Then type the page number and hit enter.
+Also using [remark](https://github.com/gnab/remark)

@@ -1,434 +1,368 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<html>
+  <head>
+    <title>Things I Wish I Knew Three Years Ago</title>    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="description" content="UC Davis grad school tech and strategies 
+                                      about things we wished we knew when we started graduate school">
+    <meta name="keywords" content="Population Biology, Open Science, UC Davis, Graduate school">
+    <meta name="author" content="Jaime Ashander (this version), Carl Boettiger, Jason Moore, Dale Peterson">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+    <style type="text/css">
+      @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
-        <title>Things I Wish I Knew Three Years Ago</title>
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+    <!-- Custom CSS might not work with remark <link rel="stylesheet" href="introduction.css"> -->
+    
+  </head>
+  <body>
+    <textarea id="source">
 
-        <meta name="description" content="UC Davis Week of Welcome discussion
-        about things we wished we knew when we started graduate school">
-        <meta name="keywords" content="Open Science, UC Davis, Graduate school">
-        <meta name="author" content="Carl Boettiger, Jason Moore, Dale Peterson">
-        <meta name="viewport" content="width=1024, user-scalable=no">
+class: center, middle
 
-        <!-- Core and extension CSS files -->
-        <link rel="stylesheet" href="./deck.js/core/deck.core.css">
-        <link rel="stylesheet" href="./deck.js/extensions/goto/deck.goto.css">
-        <link rel="stylesheet" href="./deck.js/extensions/menu/deck.menu.css">
-        <link rel="stylesheet" href="./deck.js/extensions/navigation/deck.navigation.css">
-        <link rel="stylesheet" href="./deck.js/extensions/status/deck.status.css">
-        <link rel="stylesheet" href="./deck.js/extensions/hash/deck.hash.css">
+# Things I Wish I Knew Three Years ago
 
-        <!-- Theme CSS files (menu, if enabled, swaps these out) -->
-        <link rel="stylesheet" id="style-theme-link" href="./deck.js/themes/style/web-2.0.css">
-        <link rel="stylesheet" id="transition-theme-link" href="./deck.js/themes/transition/horizontal-slide.css">
+_or_ 
 
-        <!-- Custom CSS just for this page -->
-        <link rel="stylesheet" href="introduction.css">
+# Things I Knew But Could Have Put to Better Use
 
-        <script src="./modernizr.custom.js"></script>
-</head>
+---
 
-<body class="deck-container">
+--- 
 
-        <div class="theme-menu">
-	<h2>Themes</h2>
+# Outline 
 
-	<label for="style-themes">Style:</label>
-	<select id="style-themes">
-		<option selected value="./deck.js/themes/style/web-2.0.css">Web 2.0</option>
-		<option value="./deck.js/themes/style/swiss.css">Swiss</option>
-		<option value="./deck.js/themes/style/neon.css">Neon</option>
-		<option value="">None</option>
-	</select>
 
-	<label for="transition-themes">Transition:</label>
-	<select id="transition-themes">
-		<option selected value="./deck.js/themes/transition/horizontal-slide.css">Horizontal Slide</option>
-		<option value="./deck.js/themes/transition/vertical-slide.css">Vertical Slide</option>
-		<option value="./deck.js/themes/transition/fade.css">Fade</option>
-		<option value="">None</option>
-	</select>
-</div>
+## Tech tools
 
-<div class="slide" id="title-slide">
-	<h1>Things I Wish I Knew Three Years ago</h1>
-</div>
+- Manage literature <!-- Papers/Mendeley/Zotero, + RSS + people/topic alerts from GoogleScholar/PubMed--> 
+- Build a web presence <!--Create a personal website (Wordpress.com, maybe Github), consider social media (twitter in science)-->
+- Set up your computer for science
+- Get help
 
-<div class="slide" id="overview">
-	<h2>Outline</h2>
-	<ol>
-		<li class="slide">
-			<h3>Davis Open Science</h3>
-			<p>Our group and what we do.</p>
-		</li>
-		<li class="slide">
-			<h3>What is Open Science?</h3>
-			<p>We didn't know about it when we got here...</p>
-		</li>
-		<li class="slide">
-			<h3>Useful tools</h3>
-			<p>A grab bag of tools that will help you do better research, and
-			potentially open up your work.</p>
-		</li>
-	</ol>
-</div>
+--
 
-<div class="slide">
-	<h2>Who are we?</h2>
-	<div class="slide">
-		<h3>Davis Open Science <a
-				href="http://www.daviswiki.org/Davis_Open_Science">http://www.daviswiki.org/Davis_Open_Science</a></h3>
-		<ul>
-			<li>~83 members</li>
-			<li>Monthly meetings: 1st Wed, 5:30pm, Delta of Venus</li>
-			<li>Sponsored and posted 8 talks last year</li>
-		</ul>
-	</div>
-	<div class="slide">
-		<h3>Carl Boettiger: cboettig@gmail.com</h3>
-		<p>Believes openness is the way to keep up in a rapidly changing world </p>
-	</div>
-	<div class="slide">
-		<h3>Jason Moore: moorepants@gmail.com</h3>
-		<p>Thinks academic knowledge should be more accessible.</p>
-	</div>
-	<div class="slide">
-		<h3>Luke Peterson: hazelnusse@gmail.com</h3>
-		<p>Wants to make research more reproducible and available.</p>
-	</div>
-</div>
+## Mental tools
 
-<div class="slide">
-	<h2>Traditional Closed Research Approach</h2>
-		<img class="left-single" src="images/research-flow-closed.svg">
-		<div class="slide">
-			<h3>Literature</h3>
-			<p>Journal subscriptions keep the world and ourselves from our papers.</p>
-		</div>
-		<div class="slide">
-			<h3>Research & Analysis</h3>
-			<p>Most research is typically done in secret, so you don't get scooped.</p>
-		</div>
-		<div class="slide">
-			<h3>Review</h3>
-			<p>Double blind closed review process.</p>
-		</div>
-		<div class="slide">
-			<h3>Publish</h3>
-			<p>Archaic paper based publishing where the publishers cash in and own the
-		copyrights.</p>
-		</div>
-</div>
+- None of this is a substitute for thinking
+- Thinking is hard
+- Give yourself time and space
 
-<div class="slide">
-	<h2>What if it is more open?</h2>
-		<img class="left-single" src="images/research-flow-open.svg">
-		<div class="slide">
-			<h3>Literature</h3>
-			<p>Open access journals and tools to rapidly share the latest discovery. </p>
-		</div>
-		<div class="slide">
-			<h3>Research & Analysis</h3>
-			<p>Share your work as you do it with science blogs, open notebooks, and
-			open sourcing your tools.</p>
-		</div>
-		<div class="slide">
-			<h3>Review</h3>
-			<p>Post publication, open peer review.</p>
-		</div>
-		<div class="slide">
-		<h3>Publish</h3>
-			<p>Web based rapid publishing where the author is in control and owns the
-			copyright.</p>
-		</div>
-</div>
 
-<div class="slide">
-  <h2> Information Overload?</h2>
-	<img class="single" src="images/information-overload.jpg">
-</div>
+---
 
-<div class="slide">
-  <h2> Not an new problem... </h2>
-	<img class="single" src="images/printing-press.jpg">
-</div>
+# Mental
 
-<div class="slide">
-  <h2> Journal Roles </h2>
-	<img class="single" src="images/journalRoles.png">
-</div>
+Slides and some ideas shamelessly stolen from Julia Baum @baumlab. Later, go [read the whole thing](baumlab.weebly.com/uploads/1/2/4/4/12445281/baum_2013_mentalresilience_lowresforposting.pdf)
 
-<div class="slide">
-  <h2> The Decoupled Journal? </h2>
-	<table class="collage">
-		<tr colspan=2>
-			<td><img class="collage" src="images/plos-one.jpg"></td>
-			<td><img class="collage" src="images/f1000.jpg"></td>
-		</tr>
-		<tr>
-			<td><img class="collage" src="images/impact.png"></td>
-			<td><img class="collage" src="images/article-metrics.png"></td>
-		</tr>
-	</table>
-</div>
+---
 
-<div class="slide">
-	<h2>Open science success stories</h2>
-		<img class="left-single" src="images/projectpolymath-logo.png">
-		<ul>
-			<li class="slide">William Timothy Gowers:  Is massively collaborative
-                        mathematics possible?</li>
-                        <li class="slide"><strong>Yes!</strong>  The Hales-Jewett theorem was proven
-                        in about 3 months of heavy discussion (170,000 words) with more than 40
-                        people (including 2 Fields medalists), <strong>all online</strong>. Several
-                        papers published as a result.</li>
-                        <li class="slide">Greater ambitions: Starting a
-                        polymath university, amplify our collective
-                        intelligence to solve a wide range of relevant research problems.
-			<li class="slide">Polymath:  A person of wide-ranging
-                        knowledge or learning.</li>
-		</ul>
-</div>
+background-image: url(images/1.png)
 
-<div class="slide">
-	<h2>Open science success stories (cont.)</h2>
-		<ul class="listfont">
-			<li class="slide">Reproducible Research?  Oxford
-                        Journal of Biostatistics</li>
-                        <li class="slide">Associate editor for reproducibility</li>
-			<li class="slide">The criteria rating system:
-                                <ol class="listfont">
-                                        <li class="slide">Data</li>
-                                        <li class="slide">Code</li>
-                                        <li class="slide">Reproducible</li>
-                                </ol>
-                        </li>
-		</ul>
-		<img class="slide" src="images/reproducible-kite.jpg">
-</div>
+---
 
-<div class="slide">
-	<h2>Social Media</h2>
-	<table class="collage">
-		<tr colspan=3>
-			<td><img class="collage" src="images/twitter-logo.png"></td>
-			<td><img class="collage" src="images/google-plus-logo.jpg"></td>
-		</tr>
-		<tr>
-			<td><img class="collage" src="images/facebook-logo.jpg"></td>
-			<td><img class="collage" src="images/friendfeed-logo.jpg"></td>
-			<td><img class="collage" src="images/google-buzz-logo.png"></td>
-		</tr>
-	</table>
-</div>
+background-image: url(images/2.png)
 
-<div class="slide">
-	<h2>Tweet For The Sake Of Science</h2>
-	<a href="http://www.twitter.com">
-		<img class="left-single" src="images/twitter-screenshot.png">
-	</a>
-	<!-- need some stuff here -->
-</div>
+# Remember: you're doing what you love
 
-<div class="slide">
-	<h2>Citation Management and Sharing</h2>
-	<table class="collage">
-		<tr>
-			<td><img src="images/zotero-logo.gif"></td>
-			<td><img src="images/mendeley-logo.png"></td>
-		</tr>
-		<tr>
-			<td><img src="images/jabref-logo.jpg"></td>
-			<td><img src="images/citeulike-logo.png"></td>
-		</tr>
-	</table>
-</div>
+---
 
-<div class="slide">
-	<h2>Mendeley: Share your references</h2>
-	<a href="http://www.mendeley.com">
-		<img class="left-single" src="images/mendeley-screenshot.png">
-	</a>
-	<ul class="listfont">
-		<li>Automatic citation generation from pdfs</li>
-		<li>Citation database</li>
-		<li>Integration with Word, Open/LibreOffice, BibTeX</li>
-		<li>Track by more than just number of references</li>
-	</ul>
-</div>
+background-image: url(images/3.png)
 
-<div class="slide">
-	<h2>Data Sharing/Backup/Version Control</h2>
-	<table class="collage">
-		<tr colspan=4>
-			<td><img src="images/dropbox-logo.png"></td>
-			<td><img src="images/rsync-logo.jpg"></td>
-			<td><img src="images/google-docs-logo.jpg"></td>
-		</tr>
-		<tr>
-			<td><img src="images/git-logo.png"></td>
-			<td><img src="images/subversion-logo.png"></td>
-			<td><img src="images/mercurial-logo.png"></td>
-			<td><img src="images/bazaar-logo.png"></td>
-		</tr>
-	</table>
-</div>
+---
 
-<div class="slide">
-	<h2>One filesystem to rule them all: Dropbox</h2>
-	<a href="http://www.dropbox.com">
-		<img class="left-single" src="images/dropbox-screenshot.gif">
-	</a>
-	<ul class="listfont">
-		<li>Synchronizes a folder on your computer to other computers, the web and other users.</li>
-	</ul>
-</div>
+# So, what can we do?
 
-<div class="slide">
-	<h2>Collaborative text editing and coding</h2>
-	<table class="collage">
-		<tr>
-			<td><img src="images/github-logo.png"></td>
-			<td><img src="images/bitbucket-logo.png"></td>
-			<td><img src="images/google-code-logo.gif"></td>
-		</tr>
-		<tr>
-			<td><img src="images/sourceforge-logo.png"></td>
-			<td><img src="images/launchpad-logo.png"></td>
-			<td><img src="images/scribtex-logo.jpg"></td>
-		</tr>
-	</table>
-</div>
+---
 
-<div class="slide">
-	<h2>Github</h2>
-	<a href="http://www.github.com">
-		<img class="left-single" src="images/github-screenshot.jpg"	>
-	</a>
-	<ul class="listfont">
-		<li>Collaborative coding</li>
-		<li>Free for open source projects</li>
-		<li>Uses the Git distributed version control software</li>
-	</ul>
-</div>
+background-image: url(images/4.png)
 
-<div class="slide">
-	<h2>Website/Blog/Content Management</h2>
-	<table class="collage">
-		<tr>
-			<td><img src="images/wordpress-logo.png"></td>
-			<td><img src="images/mediawiki-logo.png"></td>
-			<td><img src="images/blogger-logo.jpg"></td>
-		</tr>
-		<tr>
-			<td><img class="collage" src="images/plone-logo.png"></td>
-			<td><img class="collage" src="images/tumblr-logo.jpg"></td>
-			<td><img class="collage" src="images/drupal-logo.gif"></td>
-		</tr>
-	</table>
-</div>
+---
 
-<div class="slide">
-	<h2>Instantaneous publishing for the world</h2>
-	<a href="http://www.wordpress.com">
-		<img class="left-single" src="images/wordpress-screenshot.png">
-	</a>
-	<ul class="listfont">
-		<li>All round, easy to use website publishing platform.</li>
-		<li>Open source and community driven</li>
-		<li>Expansive plugin choices including many research focused ones.</li>
-	</ul>
-</div>
+background-image: url(images/5.png)
 
-<div class="slide">
-	<h2>Q & A</h2>
-	<a href="http://www.stackoverflow.com">
-		<img class="single" src="images/stackoverflow-screenshot.png">
-	</a>
-</div>
+---
 
-<div class="slide">
-	<h2>UC Resources for Open Science</h2>
-	<h3>California Digital Library</h3>
-	<p><a href="http://www.cdlib.org/services/uc3/merritt/">Merrit Data
-		Depository</a></p>
-	<h3>UC Davis Library System</h3>
-	<p><a href="lib.ucdavis.edu">lib.ucdavis.edu</a></p>
-	<h3>Davis Open Science</h3>
-	<h3>UCTV Seminars</h3>
-	<p><a href="http://seminars.uctv.tv/">http://itunes.ucdavis.edu/</a></p>
-	<p>Hosting for seminars and talks</p>
-	<h3>iTunes Univeristy</h3>
-		<p><a href="http://itunes.ucdavis.edu/">http://itunes.ucdavis.edu/</a></p>
-		<h3>People</h3>
-		<ul>
-			<li>Jonathan Eisen</li>
-			<li>Bertand Ludäscher</li>
-			<li>Norm Matloff</li>
-			<li>Phoebe Ayers</li>
-			<li>Mario Biagioli</li>
-			<li>Jim Carey</li>
-			<li>Susanne Rockwell</li>
-			<li>Paul Gepts</li>
-		</ul>
-</div>
+background-image: url(images/6.png)
 
-<div class="slide">
-	<h2>What's next?</h2>
-	<center>
-	<h2><a
-			href="http://www.daviswiki.org/Davis_Open_Science">http://www.daviswiki.org/Davis_Open_Science</a><h2>
-	</center>
-	<div class="slide" style="font-size:150%">
-		<h3>Who's our audience?</h3>
-		<p><em>Round robin:</em> name, why you are here, and a question</p>
-	</div>
-	<div class="slide" style="font-size:150%">
-		<h3>Groups:</h3>
-		<ul>
-			<li>Pair up</li>
-			<li>Pick a topic that you want to know more about (i.e. a tool, open science
-			idea, etc)</li>
-			<li>Discuss how to share it through a workshop or presentation.</li>
-		</ul>
-	</div>
-</div>
+---
 
-<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
-<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+# Be the best scientist you can be 
 
-<p class="deck-status">
-	<span class="deck-status-current"></span>
-	/
-	<span class="deck-status-total"></span>
-</p>
+## know your stuff
 
-<form action="." method="get" class="goto-form">
-	<label for="goto-slide">Go to slide:</label>
-	<input type="number" name="slidenum" id="goto-slide">
-	<input type="submit" value="Go">
-</form>
+## focus on discovery 
 
-<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+_accept stupidity_ and embrace creativity -- give yourself time to think and keep an open mind
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
-<script>window.jQuery || document.write('<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.1.min.js">\x3C/script>')</script>
+## be persistent
 
-<!-- Deck Core and extensions -->
-<script src="./deck.js/core/deck.core.js"></script>
-<script src="./deck.js/extensions/menu/deck.menu.js"></script>
-<script src="./deck.js/extensions/goto/deck.goto.js"></script>
-<script src="./deck.js/extensions/status/deck.status.js"></script>
-<script src="./deck.js/extensions/navigation/deck.navigation.js"></script>
-<script src="./deck.js/extensions/hash/deck.hash.js"></script>
+rejection is part of science
 
-<!-- Specific to this page -->
-<script src="introduction.js"></script>
+---
 
-</body>
+background-image: url(images/beproductive.png)
+
+---
+
+background-image: url(images/8.png)
+
+---
+
+background-image: url(images/9.png)
+
+<!--
+1 stupidity
+2 remember : do what you love 
+3 stupidity 2
+4 embrace creative
+5 give yourself time 1 and 2 6.png
+6 be the best you can be 7.png
+7 beproductive.png
+8 more prod hints 8.png
+9 celebrate success (even small ones)
+-->
+
+---
+
+# Mental
+
+
+---
+
+layout: true
+
+# Literature Management, Sharing, and Discovery
+
+* Automatic citation generation from pdfs
+* Citation database
+* Integration with Word, Open/LibreOffice, BibTeX
+
+
+---
+.right[![tmp](images/zotero-logo.gif)]
+---
+
+.right[![tmp](images/mendeley-logo.png)]
+---
+
+.right[![tmp](images/jabref-logo.jpg)]
+---
+
+.right[![tmp](images/citeulike-logo.png)]
+---
+
+.right[![tmp](images/papers-logo.png)]
+
+---
+
+layout: false
+
+background-image: url(images/mendeley-screenshot.png)
+
+# Mendeley: share your references
+
+---
+
+layout: false
+
+# Discover new literature
+
+* journal RSS + some RSS reader OR table of contents alerts + email
+*  people/topic alerts from [Google Scholar](http://scholar.google.com/) or [PubMed](http://www.ncbi.nlm.nih.gov/guide/howto/receive-search-results/)
+* blogs and preprint servers (e.g. [Haldane's Sieve](http://haldanessieve.org/) started by Graham Coop )
+* Twitter ...
+
+---
+
+background-image: url(images/twitter-screenshot.png)
+
+---
+
+layout: true
+
+# Set up a web presence!! 
+
+---
+
+* build a website, it's easy now -- focus on the content not the tools
+* even if you have one, migrate to a new content management system!
+* twitter can help (but not mandatory)
+
+---
+
+* wordpress
+* weebly
+* jekyll, pelican, etc (perhaps with hosting via github pages)
+
+.right[![tmp](images/wordpress-logo.png)]
+.right[![tmp](images/weebly-logo.png)]
+
+
+---
+
+less good
+.right[![tmp](images/mediawiki-logo.png)]
+.right[![tmp](images/blogger-logo.jpg)]
+.right[![tmp](images/tumblr-logo.jpg)]
+
+---
+layout: false
+
+# Set your computer up to do science
+
+* key tools: R (R studio), text editor (depends on OS) 
+--
+
+* recommended: command line (developer tools on Mac), git 
+--
+
+* ask your friends and chort what tools they use!
+--
+
+* google for other ideas and tutorials: [scientific computing on mac top hit](http://scottlab.ucsc.edu/~wgscott/xtal/wiki/index.php/Main_Page) it's [harder on windows](http://faustusnotes.wordpress.com/2012/04/21/the-end-of-scientific-computing-with-windows/) and easier on linux but can be done
+
+---
+
+# Data Sharing and sync/Backup/Version Control
+
+Filesystem sync: 
+
+* Synchronize folders on your computer to other computers, the web and other users
+
+--
+
+* Useful for sharing with others or yourself notes, pdf library, documents 
+--
+
+* dropbox/google drive     
+--
+
+* rsync (if you have a server or want to use e.g. github)
+
+--
+
+.right[![tmp](images/dropbox-logo.png)]
+
+--
+ 
+.right[![tmp](images/rsync-logo.jpg)]
+
+
+---
+
+layout: true
+
+# Data Sharing and sync/Backup/Version Control
+
+Collaboration  
+
+* google docs
+* social coding tools (more below)
+
+---
+
+.right[![tmp](images/google-docs-logo.jpg)]
+
+---
+
+layout: true
+
+# Data Sharing and sync/Backup/Version Control
+
+Version control
+
+* whole topic
+* keep track of changed files
+* more below in social coding
+* ask Vince ;)
+
+---
+
+.right[![tmp](images/git-logo.png)]
+---
+
+.right[![tmp](images/subversion-logo.png)]
+---
+
+.right[![tmp](images/mercurial-logo.png)]
+---
+
+.right[![tmp](images/bazaar-logo.png)]
+
+---
+
+
+
+---
+layout: true
+
+# Collaborative text editing and coding
+
+* use 'social coding' tools to collaborate
+* get strong version control for free
+
+---
+.right[![tmp](images/github-logo.png)]
+---
+.right[![tmp](images/bitbucket-logo.png)]
+---
+.right[![tmp](images/google-code-logo.gif)]
+---
+.right[![tmp](images/sourceforge-logo.png)]
+
+---
+layout: false
+
+
+# Github
+
+* Collaborative coding
+* Free for open source projects AND [for students](https://education.github.com/) limited nuimber of private repositories
+* Uses the Git distributed version control software
+
+---
+
+layout: false
+
+# Q & A
+
+* stackoverflow
+* crossvalidated
+* lists, e.g. R-sig-mixed
+
+---
+
+layout: false
+
+# Local Resources for tech help / education
+
+* R help: [Davis R Users Group [D-RUG] ](https://groups.google.com/forum/#!forum/davis-rug)
+* Stats classes: Ecology Grad Student Association [stats course guide](http://egsa.ucdavis.edu/resources/stats/#courses)
+* Workshops: software carpentry (occasional), CPB (occasional, sometimes relevant)
+
+--- 
+
+# Questions, followup 
+
+* @jaimedash
+* jashander@ucdavis.edu
+
+
+    </textarea>
+    <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+    </script>
+  </body>
 </html>
+
